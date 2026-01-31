@@ -1,0 +1,5 @@
+total=0
+for i in range(5):
+   num=int(input("please enter the num"))
+   total=num+total
+print(f"the total is {total})
