@@ -1,0 +1,5 @@
+word=input("please inter you task?\n")
+count=int(input("how many times would you to repeet it?\n"))
+for i in range(count):
+    print(word)
+    
