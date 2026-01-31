@@ -1,0 +1,12 @@
+#the name and count the age
+user_name=input("Hi,pleas inter your name\n")
+birth_year=input("what your birth year?\n")
+the_year=input("what our year now?\n")
+user_age=float(the_year)- float(birth_year)
+User_age=str(user_age)
+print(User_age)
+#the test
+if user_age>= 18:
+    print("welcome to teen sociaty")
+else:
+    print("sorry you are still young to enter this application ")
