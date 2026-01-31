@@ -1,0 +1,27 @@
+#رسالة الترحيب و طلب العميل
+print("welcome in our restaurant!")
+main_order=input("what you want to eat today?(burgar or pizza)\n").lower()
+
+#شرط البيتزا
+if main_order=="pizza":
+    extra_order1=input("good choice,do you want to drink bebsi or eat salad\n").lower()
+    #شروط الاضافية
+    if extra_order1=="bebsi":
+        print("your order:pizza and bebsi please wait")
+    elif extra_order1=="salad":
+        print("your order is:pizza and salad please wait")
+    else:
+        print("sorry,please write bebsi or salad")
+#شروط البرغر
+elif main_order=="burgar":
+    extra_order2=input("good choice do you want to drink bebsi or eat salad")
+#شروط اضاقي البرغر 
+    if extra_order2=="bebsi":
+        print("your order is burger and bebsi please wait")
+    elif extra_order2=="salad":
+        print("your order is burgar and salad")
+    else:
+        print("please write salad or bebsi only")
+else:
+    print("sorry your order not found")
+    
