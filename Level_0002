@@ -1,0 +1,3 @@
+name=input("hi,please inter your name\n")
+hoppy=input("what your favourite hoppy?\n")
+print("welcome "+name+" i love the "+hoppy+" too")
