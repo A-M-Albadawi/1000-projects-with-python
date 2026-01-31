@@ -1,4 +1,4 @@
-9name=input("please enter your name?\n").lower()
+name=input("please enter your name?\n").lower()
 age=float(input("please enter your age?\n"))
 password_float=float(input("please enter your password?\n"))
 if name==("adel") and age>=18 and password_float==1234:
